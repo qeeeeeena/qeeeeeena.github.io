@@ -1,0 +1,73 @@
+/* --- 1. 更換全站字體 --- */
+body, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, .subheading {
+    font-family: "Noto Sans TC", sans-serif;
+    text-transform: none; /* 取消模板預設大寫 */
+}
+
+/* --- 2. 全站文字顏色分層 --- */
+/* 正文文字 (淺咖啡) */
+body, p, li {
+    color: #8a6a6a;
+}
+
+/* 標題文字 (深咖啡) */
+h1, h2, h3, h4, h5, h6 {
+    color: #3A1F1F;
+}
+
+/* subheading */
+.subheading {
+    color: #5e3c3c;
+}
+
+/* --- 3. 導覽列 (左邊側邊欄) --- */
+#sideNav {
+    background-color: #F5C0C0; /* 粉色側邊欄 */
+    color: #F5C0C0;
+}
+
+#sideNav .nav-link {
+    color: #ffd5d5; /* 粉色文字 */
+}
+
+#sideNav .nav-link:hover {
+    color: #FFD9D9; /* hover 淡粉 */
+}
+
+/* --- 4. 名字特殊顏色 --- */
+.resume-section-content h1 span {
+    color: #3A1F1F; /* 深咖啡名字 */
+}
+
+/* --- 5. 區塊背景 --- */
+body {
+    background-color: #F5C0C0; /* 整體粉色背景 */
+}
+
+.resume-section {
+    background-color: #FFD9D9; /* 區塊淡粉背景 */
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* --- 6. 連結顏色 --- */
+a {
+    color: #4B2E2E; /* 淺咖啡 */
+}
+
+a:hover {
+    color: #3A1F1F; /* 深咖啡 */
+}
+
+/* --- 7. 主題顏色 (Bootstrap 主色) --- */
+:root {
+    --bs-primary-rgb: 75, 46, 46; /* 咖啡色主色 */
+    --bs-link-color: rgb(75, 46, 46);
+    --bs-link-hover-color: rgb(58, 31, 31); /* 深咖啡 hover */
+}
+
+/* --- 8. 社群圖示 hover 顏色 --- */
+.social-icons .social-icon:hover {
+    background-color: rgb(138, 82, 82); /* 亮咖啡色 */
+}
